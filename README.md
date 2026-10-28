@@ -25,9 +25,12 @@ A database server must not be reachable from the internet. Only the app server s
 ## Testing
 - Database has no public IP
 - <img width="1365" height="725" alt="no-public ip" src="https://github.com/user-attachments/assets/fe5d8d7b-9bb3-4943-8074-5c7550efd2bc" />
-
 - App server can reach the database on port 3306
+- <img width="758" height="537" alt="image" src="https://github.com/user-attachments/assets/c0a9ea72-b11d-4ab1-a886-376685b94bd3" />
+
 - When the db-sg rule was changed, the connection timed out, which proves the security group does the protecting
+- <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/f2982e62-420c-4867-93ff-8a91a2861cf6" />
+
 
 ## What I learned
 - How public and private subnets differ
